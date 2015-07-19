@@ -58,6 +58,10 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
+#Additional modules
+github "mongodb",     "1.4.0"
+github "java",        "2.0.0", :repo => "siddhuwarrier/puppet-java"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 # github "elasticsearch", "2.7.2"
