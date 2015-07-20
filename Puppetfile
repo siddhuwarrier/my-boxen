@@ -39,33 +39,19 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 # some/most of these if you want, but it's not recommended.
 
 github "brewcask",    "0.0.6"
-github "dnsmasq",     "2.0.1"
-github "foreman",     "1.2.0"
 github "gcc",         "2.2.1"
 github "git",         "2.7.9"
-github "go",          "2.1.0"
 github "homebrew",    "1.12.0"
-github "hub",         "1.4.1"
-github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
-github "nginx",       "1.4.5"
 github "nodejs",      "4.0.1"
 github "openssl",     "1.0.0"
-github "phantomjs",   "2.4.0"
-github "pkgconfig",   "1.0.0"
-github "repository",  "2.4.1"
 github "ruby",        "8.5.2"
+
+# For Puppet
+github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
+github "repository",  "2.4.1"
 github "sudo",        "1.0.0"
-github "xquartz",     "1.2.1"
 
 #Additional modules
 github "mongodb",     "1.4.0"
 github "java",        "2.0.0", :repo => "siddhuwarrier/puppet-java"
-
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
-# github "elasticsearch", "2.7.2"
-# github "mysql",         "2.0.1"
-# github "postgresql",  "3.0.3"
-# github "redis",       "3.1.0"
-# github "sysctl",      "1.0.1"
