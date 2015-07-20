@@ -66,6 +66,8 @@ node default {
 
 	# install the monokai theme
 	atom::theme { 'monokai': }
+
+	include luanvim
   ##############################
 
   # fail if FDE is not enabled
@@ -73,16 +75,10 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  # node versions - uncomment out any additional versions you want/need.
-#  nodejs::version { 'v0.6': }
-#  nodejs::version { 'v0.8': }
+  # node versions - add any more node js versions as required by copying the line below
   nodejs::version { 'v0.10': }
 
-  # default ruby versions - uncomment out any additional versions you want/need
-#  ruby::version { '1.9.3': }
-#  ruby::version { '2.0.0': }
-#  ruby::version { '2.1.0': }
-#  ruby::version { '2.1.1': }
+  # default ruby versions - add any more ruby versions as required by copying this line
   ruby::version { '2.1.2': }
 
   # common, useful packages

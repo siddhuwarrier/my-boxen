@@ -45,17 +45,16 @@ github "homebrew",    "1.12.0"
 github "nodejs",      "4.0.1"
 github "openssl",     "1.0.0"
 github "ruby",        "8.5.2"
+github "mongodb",     "1.4.0"
+github "java",        "2.0.0", :repo => "siddhuwarrier/puppet-java"
 
 # For Puppet
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
-github "vcsrepo"      "1.3.0", :repo => "puppetlabs/puppetlabs-vcsrepo"
 github "repository",  "2.4.1"
 github "sudo",        "1.0.0"
 
-#Modules Siddhu likes; comment these out if you don't want them
+#Optional Modules Siddhu likes; comment these out if you don't want them
 github "atom", 	      "1.2.0"
-
-#Additional modules
-github "mongodb",     "1.4.0"
 github "java",        "2.0.0", :repo => "siddhuwarrier/puppet-java"
+github "luanvim",        "0.1.3", :repo => "siddhuwarrier/puppet-luanvim"
