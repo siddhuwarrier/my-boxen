@@ -49,8 +49,12 @@ github "ruby",        "8.5.2"
 # For Puppet
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
+github "vcsrepo"      "1.3.0", :repo => "puppetlabs/puppetlabs-vcsrepo"
 github "repository",  "2.4.1"
 github "sudo",        "1.0.0"
+
+#Modules Siddhu likes; comment these out if you don't want them
+github "atom", 	      "1.2.0"
 
 #Additional modules
 github "mongodb",     "1.4.0"

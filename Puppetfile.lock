@@ -54,6 +54,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: puppetlabs/puppetlabs-inifile
+  specs:
+    inifile (1.1.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (4.2.1)
@@ -74,6 +79,7 @@ DEPENDENCIES
   gcc (= 2.2.1)
   git (= 2.7.9)
   homebrew (= 1.12.0)
+  inifile (= 1.1.1)
   java (= 2.0.0)
   module_data (= 0.0.3)
   mongodb (= 1.4.0)
